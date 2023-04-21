@@ -1,0 +1,197 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+
+    background-color: #0D1117 ;
+
+}
+.container{
+
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 30px;
+  margin-bottom: 50px;
+
+
+}
+
+.logo{
+
+  display: flex;
+    align-items: right;
+    justify-content: right;
+    font-family: "Roboto", sans-serif;
+    color: #808080;
+    margin-left: 20px;
+
+}
+
+
+.input-b {
+    display: flex;
+    margin-right: 15px;
+    width: 1080px;
+    height: 35px;
+    padding-left: 60px;
+    padding-right: 15px;
+    border-radius: 30px;
+    border: 2px solid transparent; 
+    font-size: 14px;
+    background-color: #161e29e3;
+    color: whitesmoke;
+  }
+  
+  .input-b:focus,
+  .input-b:hover {
+
+    border: 2px solid #235ea7;
+    outline: none;
+    color: whitesmoke;
+}
+
+.input-b::-webkit-search-cancel-button,
+.input-b::-webkit-search-decoration,
+.input-b::-webkit-search-results-button,
+.input-b::-webkit-search-results-decoration {
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+.ico{
+
+    display: flex;
+    position: relative;
+    pointer-events: none;
+    user-select: none;
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    left: 50px;
+
+} 
+
+.notificacion{
+
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  margin: 5px;
+  border-radius: 100%;
+  right: 8px;
+
+}
+.notificacion img{
+
+  display: flex;
+  position: relative;
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+  margin: 20px;
+
+}
+
+
+.notificacion:hover{
+  
+  margin: 5px;
+  border-radius: 100%;
+  background-color: #161e29e3;
+}
+
+
+.comentario{
+
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+    border-radius: 100%;
+    right: 8px;
+
+
+}
+
+.comentario img{
+
+  display: flex;
+  position: relative;
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+  margin: 20px;
+
+}
+
+
+.comentario:hover{
+  
+  margin: 5px;
+  border-radius: 100%;
+  background-color: #161e29e3;
+}
+.user{
+
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  margin: 5px;
+  border-radius: 100%;
+  right: 8px;
+}
+
+.user img{
+
+  display: flex;
+  position: relative;
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+  margin: 20px;
+
+}
+
+
+.user:hover{
+  
+  margin: 5px;
+  border-radius: 100%;
+  background-color: #161e29e3;
+}
+.separador{
+
+  border-color: #161e29e3;
+  opacity: 50%;
+  margin-top: -20px;
+  margin-bottom: 70px;
+
+}
+
+.salida{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
